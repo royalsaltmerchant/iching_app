@@ -8,8 +8,15 @@ export default function Oracle() {
   const [coin2Side, setCoin2Side] = useState('yin')
   const [coin3Side, setCoin3Side] = useState('yin')
   const [coinTossCount, setCoinTossCount] = useState(0)
-  const [hexagramLineList, setHexagramLineList] = useState(null)
-  const [hexagramLine, setHexagramLine] = useState(null) 
+  const [hexagramRan, setHexagramRan] = useState(false)
+  const [hexagramLineList, setHexagramLineList] = useState([])
+  const [hexagramLine, setHexagramLine] = useState(null)
+  
+  useEffect(() => {
+    if(coinTossCount > 0 && coinTossCount < 7) {
+      setHexagramLineList(prevList => [...prevList, hexagramLine])
+    }
+  }, [hexagramRan])
 
   useEffect(() => {
     console.log('coinToss Count',coinTossCount)
@@ -18,17 +25,15 @@ export default function Oracle() {
   }, [coinTossCount])
 
   function getHexagramLine() {
+    setHexagramRan(!hexagramRan)
     const coinSides = [coin1Side, coin2Side, coin3Side]
-    console.log('coinSides', coinSides)
     const yinLength = []
-    const yinAmount = coinSides.map(coin => {
+    coinSides.forEach(coin => {
       if(coin === 'yin') {
-        yinLength.push('yin')
+        yinLength.push(1)
       }
-      return yinLength
     })
-    console.log('yin amount', yinAmount)
-    switch(yinAmount.length) {
+    switch(yinLength.length) {
       case 1:
         return 0
       case 2:
@@ -109,6 +114,21 @@ export default function Oracle() {
     }
   }
 
+  function renderHexagramLines() {
+    return hexagramLineList.map(line => {
+      switch(line) {
+        case 0:
+          return <View style={{flexDirection: 'row', marginVertical: 10}}><View style={{marginRight: 25, width: 75, height: 10, backgroundColor: 'black'}}/><View style={{marginLeft: 25, width: 75, height: 10, backgroundColor: 'black'}}/></View>
+        case 1:
+          return <View style={{marginVertical: 10, width: 200, height: 10, backgroundColor: 'black'}}/>
+        case 2:
+          return <View style={{marginVertical: 10, flexDirection: 'row'}}><View style={{marginRight: 25, width: 75, height: 10, backgroundColor: 'red'}}/><View style={{marginLeft: 25, width: 75, height: 10, backgroundColor: 'red'}}/></View>
+        case 3:
+          return <View style={{marginVertical: 10, width: 200, height: 10, backgroundColor: 'red'}}/>
+      }
+    })
+  }
+
   function renderCoinAnimation() {
     const coinNumbers = [1, 2, 3]
     const coins = coinNumbers.map(coin => (
@@ -125,7 +145,7 @@ export default function Oracle() {
     <Container>
       <Content contentContainerStyle={{flexGrow: 1, alignItems: 'center', justifyContent: 'space-between'}} style={{padding: 10, backgroundColor: '#e6e2fc'}}>
         {renderCoinAnimation()}
-        <Text>{hexagramLine}</Text>
+        <View style={{flexDirection: 'column-reverse'}}>{renderHexagramLines()}</View>
         <View>
           <Button block bordered primary
             onPress={() => handleCoinPressAll()}>
