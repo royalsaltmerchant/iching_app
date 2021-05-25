@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import {Image, StyleSheet, TouchableOpacity} from 'react-native'
+import {Image, StyleSheet, TouchableOpacity, Modal} from 'react-native'
 import { Text, View, Container, Content, Grid, Col, Row, Button } from 'native-base';
 import images from '../images'
 
@@ -11,6 +11,13 @@ export default function Oracle() {
   const [hexagramRan, setHexagramRan] = useState(false)
   const [hexagramLineList, setHexagramLineList] = useState([])
   const [hexagramLine, setHexagramLine] = useState(null)
+  const [hexagramFinished, setHexagramFinished] = useState(false)
+
+  useEffect(() => {
+    if(coinTossCount === 6 && hexagramLineList.length === 6) {
+      setHexagramFinished(true)
+    }
+  })
   
   useEffect(() => {
     if(coinTossCount > 0 && coinTossCount < 7) {
@@ -19,9 +26,9 @@ export default function Oracle() {
   }, [hexagramRan])
 
   useEffect(() => {
-    console.log('coinToss Count',coinTossCount)
-    setHexagramLine(getHexagramLine())
-    // setHexagramLineList[prevHexagramLineList => [...prevHexagramLineList, hexagramLine]]
+    if(!hexagramFinished) {
+      setHexagramLine(getHexagramLine())
+    }
   }, [coinTossCount])
 
   function getHexagramLine() {
@@ -46,7 +53,7 @@ export default function Oracle() {
   }
 
   function handleCoinPressAll() {
-    setCoinTossCount(prevCoinTossCount => prevCoinTossCount + 1)
+    setCoinTossCount(prevCoinTossCount => prevCoinTossCount < 7 ? prevCoinTossCount + 1 : 0)
     const coinNumbers = [1, 2, 3]
     coinNumbers.forEach(coin => {
       handleCoinPress(coin)
@@ -142,16 +149,29 @@ export default function Oracle() {
   }
 
   return (
-    <Container>
-      <Content contentContainerStyle={{flexGrow: 1, alignItems: 'center', justifyContent: 'space-between'}} style={{padding: 10, backgroundColor: '#e6e2fc'}}>
+    <Container style={{backgroundColor: '#e6e2fc'}}>
+      <Content contentContainerStyle={{flexGrow: 1, alignItems: 'center', justifyContent: 'space-between'}} style={{padding: 10}}>
         {renderCoinAnimation()}
-        <View style={{flexDirection: 'column-reverse'}}>{renderHexagramLines()}</View>
+        <View style={{flexDirection: 'column-reverse'}}>
+          {renderHexagramLines()}
+        </View>
         <View>
           <Button block bordered primary
+            disabled={hexagramFinished === true}
             onPress={() => handleCoinPressAll()}>
             <Text>Throw Coins</Text>  
           </Button>
         </View>
+        <Modal
+          animationType="slide"
+          transparent={true}
+          visible={hexagramFinished}>
+          <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+            <Button block success full>
+              <Text style={{fontWeight: 'bold', fontSize: 20}}>Read</Text>
+            </Button>
+          </View>
+        </Modal>
       </Content>
     </Container>
   )
