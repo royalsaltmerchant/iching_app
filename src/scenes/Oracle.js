@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import {Image, StyleSheet, TouchableOpacity, Modal} from 'react-native'
 import { Text, View, Container, Content, Grid, Col, Row, Button } from 'native-base';
 import images from '../images'
+import {getHexagramByBinary} from '../components/HexagramUtilities'
 
 export default function Oracle() {
   const [coin1Side, setCoin1Side] = useState('yin')
@@ -12,6 +13,11 @@ export default function Oracle() {
   const [hexagramLineList, setHexagramLineList] = useState([])
   const [hexagramLine, setHexagramLine] = useState(null)
   const [hexagramFinished, setHexagramFinished] = useState(false)
+  const [hexagramBinary, setHexagramBinary] = useState(null)
+
+  useEffect(() => {
+    setHexagramBinary(getHexagramBinary())
+  }, [hexagramFinished]) 
 
   useEffect(() => {
     if(coinTossCount === 6 && hexagramLineList.length === 6) {
@@ -30,6 +36,18 @@ export default function Oracle() {
       setHexagramLine(getHexagramLine())
     }
   }, [coinTossCount])
+
+  function getHexagramBinary() {
+    const binary = []
+    hexagramLineList.forEach(line => {
+      if(line === 0) binary.push(0);
+      if(line === 1) binary.push(1);
+      if(line === 2) binary.push(0);
+      if(line === 3) binary.push(1)
+    })
+    console.log(binary)
+    return binary
+  }
 
   function getHexagramLine() {
     setHexagramRan(!hexagramRan)
@@ -148,6 +166,13 @@ export default function Oracle() {
     return <View style={{flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center'}}>{coins}</View>
   }
 
+  function handlePressRead() {
+    if(hexagramBinary) {
+      const hexagramByBinary = getHexagramByBinary(hexagramBinary)
+      console.log(hexagramByBinary)
+    }
+  }
+
   return (
     <Container style={{backgroundColor: '#e6e2fc'}}>
       <Content contentContainerStyle={{flexGrow: 1, alignItems: 'center', justifyContent: 'space-between'}} style={{padding: 10}}>
@@ -167,7 +192,9 @@ export default function Oracle() {
           transparent={true}
           visible={hexagramFinished}>
           <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-            <Button block success full>
+            <Button block success full
+              disabled={!hexagramBinary}
+              onPress={handlePressRead()}>
               <Text style={{fontWeight: 'bold', fontSize: 20}}>Read</Text>
             </Button>
           </View>

@@ -8,7 +8,7 @@ export default function Hexagrams() {
   function renderAllHexagrams() {
     const allHexagrams = getAllHexagrams()
     const allHexagramsList = allHexagrams.map(hexagram => (
-      <TouchableOpacity style={{width: '100%', borderWidth: 1, marginVertical: 5, padding: 5, backgroundColor: 'white'}}>
+      <TouchableOpacity key={hexagram.number} style={{width: '100%', borderWidth: 1, marginVertical: 5, padding: 5, backgroundColor: 'white'}}>
         <Text style={{fontSize: 30, textAlign: 'center'}} key={hexagram.number}>{`${hexagram.number} ${hexagram.names[0]}, ${hexagram.character}`}</Text>
       </TouchableOpacity>
     ))
