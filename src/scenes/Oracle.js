@@ -17,11 +17,13 @@ export default function Oracle() {
   const [changingHexagramBinary, setChangingHexagramBinary] = useState(null)
   const [hexagram, setHexagram] = useState(null)
   const [changingHexagram, setChangingHexagram] = useState(null)
+  const [changingLines, setChangingLines] = useState(null)
 
   // get hexagram binaries
   useEffect(() => {
     setHexagramBinary(getHexagramBinary())
     if(hexagramLineList.includes(2) || hexagramLineList.includes(3)) {
+      setChangingLines(getChangingLines())
       setChangingHexagramBinary(getChangingHexagramBinary())
     }
   }, [hexagramFinished]) 
@@ -67,6 +69,15 @@ export default function Oracle() {
       if(line === 3) binary.push(0)
     })
     return binary
+  }
+
+  function getChangingLines() {
+    const lines = []
+    hexagramLineList.forEach(line => {
+      if(line === 2) lines.push({index: hexagramLineList.indexOf(line) + 1, type: 'yin'});
+      if(line === 3) lines.push({index: hexagramLineList.indexOf(line) + 1, type: 'yang'})
+    })
+    return lines
   }
 
   function getHexagramLine() {
@@ -200,10 +211,14 @@ export default function Oracle() {
   }
 
   function renderModalViews() {
-    if(hexagram && changingHexagram) {
+    if(hexagram && changingHexagram && changingLines) {
       return(
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#e6e2fc'}}>
           <Text style={{fontSize: 80}}>{hexagram.character} {changingHexagram.character}</Text>
+          <View style={{flexDirection: 'row'}}>
+            <Text>Changing Lines: </Text>
+            {changingLines.map(line => <Text>{line.index}, </Text>)}
+          </View>
           <Button block full>
             <Text style={{fontWeight: 'bold', fontSize: 20}}>Return</Text>
           </Button>
