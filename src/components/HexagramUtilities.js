@@ -7,7 +7,7 @@ export function getAllHexagrams() {
 
 export function getHexagramByBinary(binary) {
   const binaryString = binary.toString().replaceAll(',','')
-  allHexagrams = data.hexagrams
+  const allHexagrams = data.hexagrams
   const hexagramByBinary = allHexagrams.filter(hexagram => 
     hexagram.binary === binaryString
   )
