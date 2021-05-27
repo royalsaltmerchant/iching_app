@@ -1,12 +1,25 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createStackNavigator } from '@react-navigation/stack';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import Oracle from './src/scenes/Oracle'
 import Hexagrams from './src/scenes/Hexagrams'
+import SingleHexagram from './src/scenes/SingleHexagram'
+
+const Stack = createStackNavigator();
 
 const Tab = createBottomTabNavigator();
+
+function hexagramHome() {
+  return(
+    <Stack.Navigator>
+      <Stack.Screen name="Hexagrams" component={Hexagrams} />
+      <Stack.Screen name="SingleHexagram" component={SingleHexagram} />
+    </Stack.Navigator>
+  )
+}
 
 export default function App() {
   return (
@@ -34,7 +47,7 @@ export default function App() {
         }}
       >
         <Tab.Screen name="Oracle" component={Oracle} />
-        <Tab.Screen name="Hexagrams" component={Hexagrams} />
+        <Tab.Screen name="Hexagrams" component={hexagramHome} />
       </Tab.Navigator>
     </NavigationContainer>
   );

@@ -14,23 +14,33 @@ export default function Oracle() {
   const [hexagramLine, setHexagramLine] = useState(null)
   const [hexagramFinished, setHexagramFinished] = useState(false)
   const [hexagramBinary, setHexagramBinary] = useState(null)
+  const [changingHexagramBinary, setChangingHexagramBinary] = useState(null)
+  const [hexagram, setHexagram] = useState(null)
+  const [changingHexagram, setChangingHexagram] = useState(null)
 
+  // get hexagram binaries
   useEffect(() => {
     setHexagramBinary(getHexagramBinary())
+    if(hexagramLineList.includes(2) || hexagramLineList.includes(3)) {
+      setChangingHexagramBinary(getChangingHexagramBinary())
+    }
   }, [hexagramFinished]) 
 
+  // set hexagram to finished
   useEffect(() => {
     if(coinTossCount === 6 && hexagramLineList.length === 6) {
       setHexagramFinished(true)
     }
   })
   
+  // make hexagram list
   useEffect(() => {
     if(coinTossCount > 0 && coinTossCount < 7) {
       setHexagramLineList(prevList => [...prevList, hexagramLine])
     }
   }, [hexagramRan])
 
+  //set hexagram line
   useEffect(() => {
     if(!hexagramFinished) {
       setHexagramLine(getHexagramLine())
@@ -45,7 +55,17 @@ export default function Oracle() {
       if(line === 2) binary.push(0);
       if(line === 3) binary.push(1)
     })
-    console.log(binary)
+    return binary
+  }
+
+  function getChangingHexagramBinary() {
+    const binary = []
+    hexagramLineList.forEach(line => {
+      if(line === 0) binary.push(0);
+      if(line === 1) binary.push(1);
+      if(line === 2) binary.push(1);
+      if(line === 3) binary.push(0)
+    })
     return binary
   }
 
@@ -166,10 +186,44 @@ export default function Oracle() {
     return <View style={{flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center'}}>{coins}</View>
   }
 
-  function handlePressRead() {
-    if(hexagramBinary) {
-      const hexagramByBinary = getHexagramByBinary(hexagramBinary)
-      console.log(hexagramByBinary)
+  async function handlePressRead() {
+    if(hexagramBinary && !changingHexagramBinary) {
+      const hexagramByBinary = await getHexagramByBinary(hexagramBinary)
+      setHexagram(hexagramByBinary)
+    }
+    if(hexagramBinary && changingHexagramBinary) {
+      const hexagramByBinary = await getHexagramByBinary(hexagramBinary)
+      const changingHexagramByBinary = await getHexagramByBinary(changingHexagramBinary)
+      setHexagram(hexagramByBinary)
+      setChangingHexagram(changingHexagramByBinary)
+    }
+  }
+
+  function renderModalViews() {
+    if(hexagram && changingHexagram) {
+      return(
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+          <Text>{hexagram.number}, {changingHexagram.number}</Text>
+        </View>
+      )
+    }
+    if(hexagram && !changingHexagram) {
+      return(
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'yellow'}}>
+          <Text>{hexagram.number}</Text>
+        </View>
+      )
+    }
+    else {
+      return(
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+          <Button block success full
+            disabled={!hexagramBinary}
+            onPress={() => handlePressRead()}>
+            <Text style={{fontWeight: 'bold', fontSize: 20}}>Read</Text>
+          </Button>
+        </View>
+      )
     }
   }
 
@@ -191,13 +245,7 @@ export default function Oracle() {
           animationType="slide"
           transparent={true}
           visible={hexagramFinished}>
-          <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-            <Button block success full
-              disabled={!hexagramBinary}
-              onPress={handlePressRead()}>
-              <Text style={{fontWeight: 'bold', fontSize: 20}}>Read</Text>
-            </Button>
-          </View>
+            {renderModalViews()}
         </Modal>
       </Content>
     </Container>
