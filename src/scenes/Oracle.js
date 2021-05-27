@@ -202,15 +202,21 @@ export default function Oracle() {
   function renderModalViews() {
     if(hexagram && changingHexagram) {
       return(
-        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-          <Text>{hexagram.number}, {changingHexagram.number}</Text>
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#e6e2fc'}}>
+          <Text style={{fontSize: 80}}>{hexagram.character} {changingHexagram.character}</Text>
+          <Button block full>
+            <Text style={{fontWeight: 'bold', fontSize: 20}}>Return</Text>
+          </Button>
         </View>
       )
     }
     if(hexagram && !changingHexagram) {
       return(
-        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'yellow'}}>
-          <Text>{hexagram.number}</Text>
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#e6e2fc'}}>
+          <Text style={{fontSize: 80}}>{hexagram.character}</Text>
+          <Button block full>
+            <Text style={{fontWeight: 'bold', fontSize: 20}}>Return</Text>
+          </Button>
         </View>
       )
     }
