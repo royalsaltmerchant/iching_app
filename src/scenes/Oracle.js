@@ -229,12 +229,14 @@ export default function Oracle() {
     if(hexagram && changingHexagram && changingLines) {
       return(
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#e6e2fc'}}>
-          <Text style={{fontSize: 80}}>{hexagram.character} {changingHexagram.character}</Text>
+          <Text style={{fontSize: 20, textAlign: 'center'}}>{`${hexagram.names[0]} →	${changingHexagram.names[0]}`}</Text>
+          <Text style={{fontSize: 80}}> {hexagram.character} {changingHexagram.character}</Text>
+          <Text style={{fontWeight: 'bold', fontSize: 20, textAlign: 'center'}}>{hexagram.number} → {changingHexagram.number}</Text>
           <View style={{flexDirection: 'row'}}>
             <Text>Changing Lines: </Text>
             {changingLines.map(line => <Text>{line.index}, </Text>)}
           </View>
-          <Button block full
+          <Button block full style={{marginTop: 10}}
             onPress={() => handlePressReturn()}>
             <Text style={{fontWeight: 'bold', fontSize: 20}}>Return</Text>
           </Button>
@@ -244,7 +246,9 @@ export default function Oracle() {
     if(hexagram && !changingHexagram) {
       return(
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#e6e2fc'}}>
+          <Text style={{fontSize: 20, textAlign: 'center', marginBottom: 10}}>{hexagram.names[0]}</Text>
           <Text style={{fontSize: 80}}>{hexagram.character}</Text>
+          <Text style={{fontWeight: 'bold', fontSize: 20, textAlign: 'center'}}>{hexagram.number}</Text>
           <Button block full
             onPress={() => handlePressReturn()}>
             <Text style={{fontWeight: 'bold', fontSize: 20}}>Return</Text>
