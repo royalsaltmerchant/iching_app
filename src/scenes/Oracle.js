@@ -88,10 +88,14 @@ export default function Oracle() {
 
   function getChangingLines() {
     const lines = []
+    let count = 0
+    console.log('lines list', hexagramLineList)
     hexagramLineList.forEach(line => {
-      if(line === 2) lines.push({index: hexagramLineList.indexOf(line) + 1, type: 'yin'});
-      if(line === 3) lines.push({index: hexagramLineList.indexOf(line) + 1, type: 'yang'})
+      count = count + 1
+      if(line === 2) lines.push({index: count, type: 'yin'});
+      if(line === 3) lines.push({index: count, type: 'yang'})
     })
+    console.log('changing lines', lines)
     return lines
   }
 
