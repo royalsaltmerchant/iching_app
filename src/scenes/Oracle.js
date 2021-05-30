@@ -19,6 +19,21 @@ export default function Oracle() {
   const [changingHexagram, setChangingHexagram] = useState(null)
   const [changingLines, setChangingLines] = useState(null)
 
+  function handlePressReturn() {
+    setCoin1Side('yin')
+    setCoin2Side('yin')
+    setCoin3Side('yin')
+    setCoinTossCount(0)
+    setHexagramLineList([])
+    setHexagramLine(null)
+    setHexagramFinished(false)
+    setHexagramBinary(null)
+    setChangingHexagramBinary(null)
+    setHexagram(null)
+    setChangingHexagram(null)
+    setChangingLines(null)
+  }
+
   // get hexagram binaries
   useEffect(() => {
     setHexagramBinary(getHexagramBinary())
@@ -44,7 +59,7 @@ export default function Oracle() {
 
   //set hexagram line
   useEffect(() => {
-    if(!hexagramFinished) {
+    if(!hexagramFinished && coinTossCount !== 0) {
       setHexagramLine(getHexagramLine())
     }
   }, [coinTossCount])
@@ -219,7 +234,8 @@ export default function Oracle() {
             <Text>Changing Lines: </Text>
             {changingLines.map(line => <Text>{line.index}, </Text>)}
           </View>
-          <Button block full>
+          <Button block full
+            onPress={() => handlePressReturn()}>
             <Text style={{fontWeight: 'bold', fontSize: 20}}>Return</Text>
           </Button>
         </View>
@@ -229,7 +245,8 @@ export default function Oracle() {
       return(
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#e6e2fc'}}>
           <Text style={{fontSize: 80}}>{hexagram.character}</Text>
-          <Button block full>
+          <Button block full
+            onPress={() => handlePressReturn()}>
             <Text style={{fontWeight: 'bold', fontSize: 20}}>Return</Text>
           </Button>
         </View>
