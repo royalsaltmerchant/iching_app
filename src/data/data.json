@@ -200,6 +200,40 @@
       "topTrigram": 1,
       "bottomTrigram": 1,
       "binary": "111111",
+      "tagLine": "The pure creative source of nature is flowing through you.",
+      "overview": "During this time, You intuitively understand the raw potential of your innate abilities. You may rely on your instict to guide your actions, persevering with the infinite strength of nature.\n\nIn order for your efforts to be effective on your journey, at first, remain quiet about your ideas, cultivating them internally before presenting them to the world. When you begin to demonstrate your abilities, remain humble, and work steadily. For ultimate success, keep your integrity strong and be resourceful, seeking out wise people for direction. During the day, remain diligent in your working. By night, take a careful approach so as not to become hyper-vigilant; you can trust yourself to make the right decisions.\n\nTrue success is dependent upon harmonious conduct with the environmental forces around you. When you remain aligned with your primal, subconscious self, your true abilities will make themselves manifest, as they will be informed by the natural creative forces of nature. By remaining true to your nature, the fruits of success will bare you a path that is most ideal, whether it be within the midst of popularity or solitude. Take great care as to not become arrogant, else achievements attained will be short lived.\n\nThis hexagram evokes images of thunder and rain. The infinite power of heaven which flows through you with the strength of a dragon.",
+      "linesOverview": {
+        "1": {
+          "type": "yang",
+          "title": "Hidden Dragon. Do not take action.",
+          "overview": "The time is not yet ripe to take present your abilities. Continue to nurture and preserve your energy internally."
+        },
+        "2": {
+          "type": "yang",
+          "title": "The dragon makes an appearance.",
+          "overview": "Display your talents openly, yet remain reserved and cautious. A humble attitude will allow for better reception."
+        },
+        "3": {
+          "type": "yang",
+          "title": "Diligent by day, careful by night. There may be danger.",
+          "overview": "Keep your integrity strong and remain vigilant in your practice. There are some who wish to take advantage of your weaknesses."
+        },
+        "4": {
+          "type": "yang",
+          "title": "Taking the leap.",
+          "overview": "You have fully developed your abilities and are about to be transformed. Any direciton you choose will lead to success, whether for personal growth, or the benefit of others."
+        },
+        "5": {
+          "type": "yang",
+          "title": "Dragon flying in the sky.",
+          "overview": "You are acting in accord with nature, balancing your energy into perfection. The fruits of success will follow great ways."
+        },
+        "6": {
+          "type": "yang",
+          "title": "Flying too high. A proud dragon carries regret.",
+          "overview": "You will become unbalanced if you indulge your success further than it will allow. True strength is in withdrawing at the opportune moment."
+        }
+      },
       "lines": [
         1,
         1,
