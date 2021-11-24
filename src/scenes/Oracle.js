@@ -216,14 +216,14 @@ export default function Oracle() {
     return <View style={{flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center'}}>{coins}</View>
   }
 
-  async function handlePressRead() {
+  function handlePressRead() {
     if(hexagramBinary && !changingHexagramBinary) {
-      const hexagramByBinary = await getHexagramByBinary(hexagramBinary)
+      const hexagramByBinary = getHexagramByBinary(hexagramBinary)
       setHexagram(hexagramByBinary)
     }
     if(hexagramBinary && changingHexagramBinary) {
-      const hexagramByBinary = await getHexagramByBinary(hexagramBinary)
-      const changingHexagramByBinary = await getHexagramByBinary(changingHexagramBinary)
+      const hexagramByBinary = getHexagramByBinary(hexagramBinary)
+      const changingHexagramByBinary = getHexagramByBinary(changingHexagramBinary)
       setHexagram(hexagramByBinary)
       setChangingHexagram(changingHexagramByBinary)
     }
@@ -238,7 +238,7 @@ export default function Oracle() {
           <Text style={{fontWeight: 'bold', fontSize: 20, textAlign: 'center'}}>{hexagram.number} → {changingHexagram.number}</Text>
           <View style={{flexDirection: 'row'}}>
             <Text>Changing Lines: </Text>
-            {changingLines.map(line => <Text>{line.index}, </Text>)}
+            {changingLines.map(line => <Text>{line.index}{changingLines.length > 1 ? "," : null} </Text>)}
           </View>
           <Button block full style={{marginTop: 10}}
             onPress={() => handlePressReturn()}>

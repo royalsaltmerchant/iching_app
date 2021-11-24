@@ -6,10 +6,9 @@ export function getAllHexagrams() {
 }
 
 export function getHexagramByBinary(binary) {
-  const binaryString = binary.toString().replaceAll(',','')
   const allHexagrams = data.hexagrams
   const hexagramByBinary = allHexagrams.filter(hexagram => 
-    hexagram.binary === binaryString
+    hexagram.lines.toString() === binary.toString()
   )
   return hexagramByBinary[0]
 }
