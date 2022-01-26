@@ -1554,7 +1554,40 @@
       "character": "䷿",
       "topTrigram": 7,
       "bottomTrigram": 4,
-      "binary": "101010",
+      "binary": "010101",
+      "tagLine": "The young fox has nearly crossed the stream.",
+      "overview": "Yin and Yang are unsettled, fire on top of water—the Yang energy is trapped. Though progress is underway, and success intimated, should you move forward without proper readiness, then advantage may be lost entirely, benefit drowned. The stream not yet crossed, there is still danger—be wary, and do not lose the fire under the waves. Clarify yourself, bide your time, and look to preventing danger. Students of the Way start by refining themselves.",
+      "linesOverview": {
+        "1": {
+          "type": "yin",
+          "title": "Moving too quickly, the fox tail gets soaked.",
+          "overview": "Looking to eat the fruit before it is ripe, while Yin and Yang energy is unsettled, having not taken the proper time to prepare yourself to the task, will end in humiliation. Don't let the fire be put out."
+        },
+        "2": {
+          "type": "yang",
+          "title": "Now is the time to drag the carriage wheels.",
+          "overview": "With firmness and stability in its center, the cart can carry you to good fortune. Remember that when biding time and nurturing strength in secret, the wise appear ignorant, and the expert, inept—at the appropriate time, they can appear reliably. Settle in the unsettled."
+        },
+        "3": {
+          "type": "yin",
+          "title": "Things not yet mended, the path forward is fraught with danger.",
+          "overview": "Though the potential advantages of crossing the stream are substantial, proper remedies have not been implemented, and evil paths multiply. Do not vainly imagine yourself settled for the task, relying on good luck and self-aggrandizement. Turn to friends in the Way who can help convert Yin and restore Yang. When unsettled, seek out a good teacher."
+        },
+        "4": {
+          "type": "yang",
+          "title": "Gather yourself up like an army invading a region of demons; get rid of mundane conditioning, cultivating inner refinement in private. If this takes three years, the rewards will be great, and primordial energy will be restored. It is difficult to be rid of the false, but when completion is settled, your aim and effect is precise."
+        },
+        "5": {
+          "type": "yin",
+          "title": "The brightness of the superior person manifests.",
+          "overview": "Ensuring stability, and steadfastness in correctness, the light of the superior person shines, leading away from blame, towards good fortune. The mundane mind is cleared out for the Dao, false brilliance leaves, and true illumination arises. Remain authentically settled, and water supports fire."
+        },
+        "6": {
+          "type": "yang",
+          "title": "Drinking their heady wine, the confident person is immersed again.",
+          "overview": "Settled brilliance achieved, the confident person now drinks deeply of themself and their good fortune without blame, until the stream overtakes and immerses them again. The overconfident do not know how to submit to proper rules, but if one's faith is not empty, because they have properly minded their affairs, then when instability arises, settlement is not lost again. Do not let the world overtake you by surprise."
+        }
+      },
       "lines": [
         0,
         1,
