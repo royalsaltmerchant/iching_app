@@ -255,6 +255,40 @@
       "topTrigram": 2,
       "bottomTrigram": 2,
       "binary": "000000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -267,6 +301,7 @@
     {
       "number": 3,
       "names": [
+        "Struggle",
         "Sprouting",
         "Difficulty at the Beginning"
       ],
@@ -275,7 +310,41 @@
       "character": "䷂",
       "topTrigram": 4,
       "bottomTrigram": 3,
-      "binary": "010001",
+      "binary": "100010",
+      "tagLine": "Rain and thunder arise—there will be development and creativity.",
+      "overview": "Like walking into a storm, there will be struggle progressing, but well-prepared and firm, the journey through the tempest can be managed, to advantage. Do not take things lightly—this is movement in peril. There is much irregularity and confusion, but where there is risk, there is often reward—whatever begins, develops, and whatever develops, will bear fruit. Carefully manage affairs, like an artisan weaving the warp of a loom. This is done by setting up a ruler who can understand and manage the course, without abandoning the Dao. Remember, promoting strength is the effect of not having it—yang energy is latent here. When primal energy appears, this is called \"living midnight.\" Do not be reckless and desirous, allowing the sure driver to hold the reigns, and the latent energy will reappear in time.",
+      "linesOverview": {
+        "1": {
+          "type": "yang",
+          "title": "When advancement is difficult, stick to correct paths, and a good coach.",
+          "overview": "The effective ruler sets up a good foundation, and nurtures primal energy. When people avoid extremes, staying the course by humbling themselves to balance, they are praised for following their noble character."
+        },
+        "2": {
+          "type": "yin",
+          "title": "Overburdened and mastered by the struggle, one is obliged to return.",
+          "overview": "Circumstances reject advancement and union, but by upholding virtue, the course will reset itself in time. Be adaptable, refine yourself, and wait. Seeking immediate solutions is unleashing newborn yang energy, to injury."
+        },
+        "3": {
+          "type": "yin",
+          "title": "Follow the deer without a ranger, and find yourself in the midst of the thick forest.",
+          "overview": "Becoming lost is an extreme situation—a wiser person knows the hidden risks of dangerous pursuit, withdrawing from the chase before disaster. Do not be arbitrary. Do not rush."
+        },
+        "4": {
+          "type": "yin",
+          "title": "The chariot is turned back, almost to retreat, but the aim is still true.",
+          "overview": "Having nurtured flexibility, and properly orienting oneself, neither the Dao, nor the yang energy, is lost. Stay true at the threshold, by seeking solutions appropriate to the time."
+        },
+        "5": {
+          "type": "yang",
+          "title": "Advancement may become expensive.",
+          "overview": "Stay firm and correct, and there can some good fortune, even if things go awry. Forestall great matters, for danger is still imminent. Wait for the proper time to escape the struggle. Nonstriving will be beneficial."
+        },
+        "6": {
+          "type": "yin",
+          "title": "The storm defeats you, and your horses weep tears of blood.",
+          "overview": "Continuing in this state is great suffering. Weak and helpless, without a whip, turned back by difficulty, it is most necessary to come to understand the medicine of the time. Do not experience struggle where there is none."
+        }
+      },
       "lines": [
         1,
         0,
@@ -297,6 +366,40 @@
       "topTrigram": 5,
       "bottomTrigram": 4,
       "binary": "100010",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -318,6 +421,40 @@
       "topTrigram": 4,
       "bottomTrigram": 1,
       "binary": "010111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -330,15 +467,50 @@
     {
       "number": 6,
       "names": [
-        "Arguing",
-        "Conflict"
+        "Dispute",
+        "Conflict",
+        "Arguing"
       ],
       "chineseName": "訟",
       "pinyinName": "sòng",
       "character": "䷅",
       "topTrigram": 1,
       "bottomTrigram": 4,
-      "binary": "111010",
+      "binary": "010111",
+      "tagLine": "Truth is obstructed, but be cautious and moderate, rather than seeking a final solution.",
+      "overview": "Though you are sincere in your current dispute, truth is blocked, and the path of prosecution will be met with obstruction—if pushed to a finale, the ending will be evil. Be your greater person by moderation and cautiousness—good fortune will come of it. Great sages know they can control their temperament—others will react with poison if pushed, deviating from harmony in a power struggle. To change, be rid of scheming and impulsiveness—it is better to contend with yourself than with others, though to be alive to sometimes suffer the scheming of others. If there is someone wiser who can settle it for you, seek them out. Now is not the time to act; there is no sure footing.",
+      "linesOverview": {
+        "1": {
+          "type": "yin",
+          "title": "Do not persist, and things will turn out well with little criticism.",
+          "overview": "By not continuing the matter, being flexible and deferential, you will suffer the ill words of others in exchange for good fortune yourself."
+        },
+        "2": {
+          "type": "yang",
+          "title": "No pressing the issue, escape and return amongst places you are safe.",
+          "overview": "You may be unequal to this dispute, unprepared or hitting above your weight. If you retreat and conceal yourself, you will be make no further mistakes, rather than inviting calamity."
+        },
+        "3": {
+          "type": "yin",
+          "title": "Hold to the virtues you've established,  and keep your integrity, not acting where others are affected.",
+          "overview": "Though dispute is perilous, you keep firm to the places you already know you have support. Wise friends that can clarify the issue will lead to good fortune, as others will be unable to claim merit against them."
+        },
+        "4": {
+          "type": "yang",
+          "title": "Not pressing the dispute, letting fate, one may rest in virtue and integrity, to good fortune.",
+          "overview": "You are unequal to this dispute, so let it rest; return to study, change your desire to be contentious, and rest where things are firm and correct—being adamant with oneself is profitable."
+        },
+        "5": {
+          "type": "yang",
+          "title": "Dispute well, and good will come of it.",
+          "overview": "You are holding the proper mean; balanced and correctly oriented. Pursuing your contention will be auspicious, if you hold to virtue."
+        },
+        "6": {
+          "type": "yang",
+          "title": "Even if you are rewarded, you will lose three times that amount if you do not move forward with respect.",
+          "overview": "Though you may win the dispute, it will not end in your respect—this is the outcome of victory without virtue, and allowing scheming and impulsiveness to win the day. Be cautious—if you will resort to being selfish and inconsiderate, it is better to not be contentious."
+        }
+      },
       "lines": [
         0,
         1,
@@ -360,6 +532,40 @@
       "topTrigram": 2,
       "bottomTrigram": 4,
       "binary": "000010",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -381,6 +587,40 @@
       "topTrigram": 4,
       "bottomTrigram": 2,
       "binary": "010000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -402,6 +642,40 @@
       "topTrigram": 6,
       "bottomTrigram": 1,
       "binary": "110111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -423,6 +697,40 @@
       "topTrigram": 1,
       "bottomTrigram": 8,
       "binary": "111011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -444,6 +752,40 @@
       "topTrigram": 2,
       "bottomTrigram": 1,
       "binary": "000111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -465,6 +807,40 @@
       "topTrigram": 1,
       "bottomTrigram": 2,
       "binary": "111000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -486,6 +862,40 @@
       "topTrigram": 1,
       "bottomTrigram": 7,
       "binary": "111101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -507,6 +917,40 @@
       "topTrigram": 7,
       "bottomTrigram": 1,
       "binary": "101111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -528,6 +972,40 @@
       "topTrigram": 2,
       "bottomTrigram": 5,
       "binary": "000100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -549,6 +1027,40 @@
       "topTrigram": 3,
       "bottomTrigram": 2,
       "binary": "001000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -569,6 +1081,40 @@
       "topTrigram": 8,
       "bottomTrigram": 3,
       "binary": "011001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -590,6 +1136,40 @@
       "topTrigram": 5,
       "bottomTrigram": 6,
       "binary": "100110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -611,6 +1191,40 @@
       "topTrigram": 2,
       "bottomTrigram": 8,
       "binary": "000011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -632,6 +1246,40 @@
       "topTrigram": 6,
       "bottomTrigram": 2,
       "binary": "110000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -653,6 +1301,40 @@
       "topTrigram": 7,
       "bottomTrigram": 3,
       "binary": "101001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -674,6 +1356,40 @@
       "topTrigram": 5,
       "bottomTrigram": 7,
       "binary": "100101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -695,6 +1411,40 @@
       "topTrigram": 5,
       "bottomTrigram": 2,
       "binary": "100000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -716,6 +1466,40 @@
       "topTrigram": 2,
       "bottomTrigram": 3,
       "binary": "000001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -737,6 +1521,40 @@
       "topTrigram": 1,
       "bottomTrigram": 3,
       "binary": "111001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -758,6 +1576,40 @@
       "topTrigram": 5,
       "bottomTrigram": 1,
       "binary": "100111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -779,6 +1631,40 @@
       "topTrigram": 5,
       "bottomTrigram": 3,
       "binary": "100001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -791,6 +1677,7 @@
     {
       "number": 28,
       "names": [
+        "A Great Excess",
         "Great Exceeding",
         "Preponderance of the Great"
       ],
@@ -800,6 +1687,40 @@
       "topTrigram": 8,
       "bottomTrigram": 6,
       "binary": "011110",
+      "tagLine": "The housebeam is bending under the great excess—moving in any direction, there will be development.",
+      "overview": "Whatever you do will be successful, but yang energy is great here, so the central beam of the house bends. The timing is extraordinary—use emptiness in fullness for the highest effect. If you indulgently pursue the strong yang energy, seeking external desires and delights, the beam could break, bringing the house down. With an excess of strong lines, here, weak lines provide the support, denoting in one, flexibility, and the other, self-satisfaction. Promote too much yang energy, not knowing what is enough, and the house will fall. Promote enough ying energy, proceeding with flexibility, being easygoing and adaptable, and development will be unhindered. Stand tall, solitary, without fear, retiring from the world without blame or regret, and you will be like the Great People.",
+      "linesOverview": {
+        "1": {
+          "type": "yin",
+          "title": "White mats are set under offerings on the soft moss.",
+          "overview": "You feel your weakness, and react appropriately. Using exceptional care and prudence, there will be no error. Putting others ahead makes you small, but being small has its advantages."
+        },
+        "2": {
+          "type": "yang",
+          "title": "The old willow grows new shoots.",
+          "overview": "There is much advantage and vitality here. If firmness is met with flexibility, without injury, all the associations will be extraordinary. Continue balancing strength with the ability to yield."
+        },
+        "3": {
+          "type": "yang",
+          "title": "The beam is weak, and there will be evil.",
+          "overview": "Evil is connected to the weak foundation of the hexagram, and no help can be given to this condition. Know when to withdraw before the housebeam snaps."
+        },
+        "4": {
+          "type": "yang",
+          "title": "The beam bends upwards to better fortune.",
+          "overview": "This will be advantageous if aimed towards the first line of proper care. Seeking help outside of this flexibility will be a cause for regret. The strong lines have firmness, so follow that with yielding, and fortune will be great. Too small, too flexible, and the strength of the house will deteriorate."
+        },
+        "5": {
+          "type": "yang",
+          "title": "The decayed willow flowers.",
+          "overview": "Though conditions are such that there is no need for concern, it is unlikely that there will be much advantage, or cause to regret. Luxury and self-satisfaction is injuring the real with the false—when the belly is filled, empty the mind and rest in the center without blame. Apply inner strength and autonomy with balance."
+        },
+        "6": {
+          "type": "yin",
+          "title": "Wading the stream with extraordinary boldness.",
+          "overview": "Attempting to ford the stream, until the waters cover the crown of your head, your energy is extraordinary. This will end in evil, but without blame for the effort. Act arbitrarily and in ignorance, and the destruction could be great. Go too far, and lose good fortune. Return to prudence if possible."
+        }
+      },
       "lines": [
         0,
         1,
@@ -821,6 +1742,40 @@
       "topTrigram": 4,
       "bottomTrigram": 4,
       "binary": "010010",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -842,6 +1797,40 @@
       "topTrigram": 7,
       "bottomTrigram": 7,
       "binary": "101101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -863,6 +1852,40 @@
       "topTrigram": 8,
       "bottomTrigram": 5,
       "binary": "011100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -884,6 +1907,40 @@
       "topTrigram": 3,
       "bottomTrigram": 6,
       "binary": "001110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -905,6 +1962,40 @@
       "topTrigram": 1,
       "bottomTrigram": 5,
       "binary": "111100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -926,6 +2017,40 @@
       "topTrigram": 3,
       "bottomTrigram": 1,
       "binary": "001111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -947,6 +2072,40 @@
       "topTrigram": 7,
       "bottomTrigram": 2,
       "binary": "101000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -967,6 +2126,40 @@
       "topTrigram": 2,
       "bottomTrigram": 7,
       "binary": "000101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -988,6 +2181,40 @@
       "topTrigram": 6,
       "bottomTrigram": 7,
       "binary": "110101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -1009,6 +2236,40 @@
       "topTrigram": 7,
       "bottomTrigram": 8,
       "binary": "101011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -1030,6 +2291,40 @@
       "topTrigram": 4,
       "bottomTrigram": 5,
       "binary": "010100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -1051,6 +2346,40 @@
       "topTrigram": 3,
       "bottomTrigram": 4,
       "binary": "001010",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -1072,6 +2401,40 @@
       "topTrigram": 5,
       "bottomTrigram": 8,
       "binary": "100011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -1093,6 +2456,40 @@
       "topTrigram": 6,
       "bottomTrigram": 3,
       "binary": "110001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -1114,6 +2511,40 @@
       "topTrigram": 8,
       "bottomTrigram": 1,
       "binary": "011111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -1135,6 +2566,40 @@
       "topTrigram": 1,
       "bottomTrigram": 6,
       "binary": "111110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -1156,6 +2621,40 @@
       "topTrigram": 8,
       "bottomTrigram": 2,
       "binary": "011000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -1177,6 +2676,40 @@
       "topTrigram": 2,
       "bottomTrigram": 6,
       "binary": "000110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -1189,6 +2722,7 @@
     {
       "number": 47,
       "names": [
+        "Constricted",
         "Confining",
         "Oppression (Exhaustion)"
       ],
@@ -1197,7 +2731,41 @@
       "character": "䷮",
       "topTrigram": 8,
       "bottomTrigram": 4,
-      "binary": "011010",
+      "binary": "010110",
+      "tagLine": "Reaching an impasse, there is exhaustion.",
+      "overview": "The earthly realm seeks the celestial, but heavenly energy has not passed through. Contentions will lead to extremes—do not be deterred by weariness. Do not let conduct be affected—preservere, with firmness and correctness, and there may yet be good of it. Do not exhaust the mind, and there is joy—random thoughts do not occur to Great People, so they are not influenced by circumstance. Instead, polish and refine. Gather yourself in difficulty, as you do in ease—joyful in trouble. The Way is perilous, so step firmly, and be prepared for risk—the superior person will sacrifice their life to their purpose. This is sincerity. This is blameless.",
+      "linesOverview": {
+        "1": {
+          "type": "yin",
+          "title": "Entering the dark valley, sitting on a tree stump, unseen for years.",
+          "overview": "Weakness here is self-destruction; follow the powerful yang lines to avoid resignation. Those who give up at the slightest difficulty, will never make it out of the valley."
+        },
+        "2": {
+          "type": "yang",
+          "title": "Stand up straight amongst the larder.",
+          "overview": "Sustenance is lacking. There will be hardship, but the Dao provides to those who stay true. There is success after adversity. Maintain sincerity, and there will be no blame."
+        },
+        "3": {
+          "type": "yin",
+          "title": "Meeting with thorns, not seeing your partner, caught up on rocks.",
+          "overview": "A very inauspicious line. Acting arbitrarily, pretending to follow the Dao, only leads to exhaustion. Honour teachers, and respect companions—there's no real constriction here at all."
+        },
+        "4": {
+          "type": "yang",
+          "title": "Moving cautiously, there will hardship, but with a good ending.",
+          "overview": "The aim is misplaced towards strengthening weak lines, but good can be unearthed. When things are difficult, try a little more. The lines suggest you have everything needed to move through this to re-established joy. It could be slow and painful, but you have the resources."
+        },
+        "5": {
+          "type": "yang",
+          "title": "In leisure and satisfaction, the nose and feet are cut off.",
+          "overview": "You are well aimed in the Dao, though your spiritual and earthly purpose is stifled. Make yourself small and humble, and continue doing the right thing, and it is only a matter of time before the Dao is fulfilled, and the impasse is overcome. Enter with sincerity."
+        },
+        "6": {
+          "type": "yin",
+          "title": "Vines and creepers hold you fast and straight.",
+          "overview": "You know if you move, you'll find reason to repent, because you're ignorant of causes and conditions. Do not pretend—pretending to be great is to suffer without the opportunity to withdraw. Seek out help and teachers, and only act after true understanding. Repentance will break the standstill, and you will join the Great Path."
+        }
+      },
       "lines": [
         0,
         1,
@@ -1219,6 +2787,40 @@
       "topTrigram": 4,
       "bottomTrigram": 6,
       "binary": "010110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -1240,6 +2842,40 @@
       "topTrigram": 8,
       "bottomTrigram": 7,
       "binary": "011101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -1261,6 +2897,40 @@
       "topTrigram": 7,
       "bottomTrigram": 6,
       "binary": "101110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -1282,6 +2952,40 @@
       "topTrigram": 3,
       "bottomTrigram": 3,
       "binary": "001001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -1303,6 +3007,40 @@
       "topTrigram": 5,
       "bottomTrigram": 5,
       "binary": "100100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -1324,6 +3062,40 @@
       "topTrigram": 6,
       "bottomTrigram": 5,
       "binary": "110100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -1336,6 +3108,7 @@
     {
       "number": 54,
       "names": [
+        "Marrying Off the Maiden",
         "Converting the Maiden",
         "The Marrying Maiden"
       ],
@@ -1344,7 +3117,41 @@
       "character": "䷵",
       "topTrigram": 3,
       "bottomTrigram": 8,
-      "binary": "001011",
+      "binary": "110100",
+      "tagLine": "The young maiden is to be married, but without advantage.",
+      "overview": "The marriage is a forming of union between heaven and earth, but in seeking enjoyment, and obeying emotion, the real is sought in the false. When habits form, and incorrect action and desire are set, yin and yang go awry, and heaven and earth do not settle naturally without effort. The east is host, your essence—the west is guest, your feeling. The thunder, your previous merit, is in the east, but a lake, seeking punishment, will swallow it all, dissipating positive energy. Follow your merit. Evolve from maiden to mother. Keep in mind the far-distant end to ward off pleasure seeking that may result in bad beginnings. Essence is not found in emotion.",
+      "linesOverview": {
+        "1": {
+          "type": "yang",
+          "title": "The maiden will be secondary in the husband's eyes, but the lame will walk.",
+          "overview": "Though there be a lameness to the connection between heaven and earth, the maiden can take the second position, providing great help. Maintain integrity, and external objects can not impose their defilement. Practice in this way, and you will walk."
+        },
+        "2": {
+          "type": "yang",
+          "title": "With one eye, you can still see. Chastity will prevail.",
+          "overview": "Though there may be a blindness to the connection between heaven and earth, the solitary widow can achieve constancy. Be flexible in strength, and like the one-eyed who can see, you are outwardly dark, and inwardly bright. Consider essence as primary, be chaste and single-minded in the Dao, and in seclusion you will know true pleasure. Do not pursue what is not right."
+        },
+        "3": {
+          "type": "yin",
+          "title": "Turning back to proper orientation, the maiden makes a great second.",
+          "overview": "Improprieties have led to the maiden being wedded off into less than ideal status, though she can be a proper secondary wife. In weakness, the orientation is off, and externals pierce your nose to draw you off like cattle. Turn from error."
+        },
+        "4": {
+          "type": "yang",
+          "title": "When it is the wrong time to marry, delay until conditions are right.",
+          "overview": "Though the time is late to be married, still the maiden may make a good wife. The Dao is focused stillness, yielding in strength—if the mind of Dao is set before action is required, then the outcomes can be fortuitous. Move from wrong to right, and await the proper time."
+        },
+        "5": {
+          "type": "yin",
+          "title": "The Emperor's younger sister marries—the timing is auspicious.",
+          "overview": "With noble character, even a scheming half-sister can not usurp the maiden's position. Settled, virtuous, and deferential to the wise and noble, those who foster the mind of Dao are able to shine. All the better if you can find wise aid. The moon is full of sunlight—here and now, good fortune is found."
+        },
+        "6": {
+          "type": "yin",
+          "title": "Sacrifice without blood, an empty chest—there is no benefit here.",
+          "overview": "With an empty basket, there will be no advantage to this union. Ignorantly fulfilling yin and yang through conditions, being indulgent, seeking to force immortality, is like being gifted an empty box—though you may appear fortunate, this behaviour will only lead you to failure."
+        }
+      },
       "lines": [
         1,
         1,
@@ -1366,6 +3173,40 @@
       "topTrigram": 3,
       "bottomTrigram": 7,
       "binary": "001101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -1387,6 +3228,40 @@
       "topTrigram": 7,
       "bottomTrigram": 5,
       "binary": "101100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -1408,6 +3283,40 @@
       "topTrigram": 6,
       "bottomTrigram": 6,
       "binary": "110110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -1429,6 +3338,40 @@
       "topTrigram": 8,
       "bottomTrigram": 8,
       "binary": "011011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -1450,6 +3393,40 @@
       "topTrigram": 6,
       "bottomTrigram": 4,
       "binary": "110010",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         1,
@@ -1462,6 +3439,7 @@
     {
       "number": 60,
       "names": [
+        "Measured",
         "Articulating",
         "Limitation"
       ],
@@ -1470,7 +3448,41 @@
       "character": "䷻",
       "topTrigram": 4,
       "bottomTrigram": 8,
-      "binary": "010011",
+      "binary": "110010",
+      "tagLine": "Development comes from measuring by the times rather than the patterns of mind—well-measured discipline leads to progress.",
+      "overview": "Yin and yang lines are balanced, with yang energy holding the central position—the strong pursues, supported by the weak, so limits are pushed, but not exceeded. Well-measured disciplines lead to progress and attainment. Too severe, and eventually they will need to be relaxed, before the joy of practice becomes toil. Awareness of life’s purpose brings pleasure, and there are naturally no restrictions. By proceeding from this firm and well-placed footing, action moves freely. Measure by proper standards, and there will be no injury. Let your calmness and adaptability bloom, without losing mindfulness, and falling into arbitrary ways, or restricting patterns, and you will find balance. This is going along with the times, rather than one’s own mind.",
+      "linesOverview": {
+        "1": {
+          "type": "yang",
+          "title": "Not leaving home without punishment.",
+          "overview": "Knowing right from wrong, then acting; this is movement without leaving home—understanding when the path is free, and when it is obstructed. Careful in the beginning, and there will be no error."
+        },
+        "2": {
+          "type": "yang",
+          "title": "Refusing to leave the home does not bode well.",
+          "overview": "Not moving beyond the boundaries, time and space to act is lost—refusal to act is without good. The weak leads the strong, so internal develops, without external being uplifted. Be effective by going outside yourself."
+        },
+        "3": {
+          "type": "yin",
+          "title": "You will lament not having followed suitable disciplines.",
+          "overview": "Craving for happiness, without working with discipline—pushing to attain externals, without establishing correct internal measures; these lead to self-inflicted wounds, with no one else to blame."
+        },
+        "4": {
+          "type": "yin",
+          "title": "Disciplines are quietly and naturally attended.",
+          "overview": "Deference to the proper source of authority leads to progress and success. Moving forward in peace, even those who are undisciplined can follow correct regulation, because they do not exert themselves by force."
+        },
+        "5": {
+          "type": "yang",
+          "title": "Disciplines are enacted with acceptance and contentment—there will be sweetness.",
+          "overview": "Inner mastery will lead to contentment, even in situations where suffering is great. Consistent measures and application, strong yet adaptable, will lead to good fortune, great progress, and positive affirmation. This is balance."
+        },
+        "6": {
+          "type": "yin",
+          "title": "The disciplines are too severe and difficult.",
+          "overview": "If the measure is over tuned, exhaustion and blame are the result. Fanatical adherence makes for strong but ineffective disciplines. Both the measures, and the negative outcomes, will eventually wear out. Do not be excessive."
+        }
+      },
       "lines": [
         1,
         1,
@@ -1492,6 +3504,40 @@
       "topTrigram": 6,
       "bottomTrigram": 8,
       "binary": "110011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         1,
@@ -1513,6 +3559,40 @@
       "topTrigram": 3,
       "bottomTrigram": 5,
       "binary": "001100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         0,
         0,
@@ -1534,6 +3614,40 @@
       "topTrigram": 4,
       "bottomTrigram": 7,
       "binary": "010101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
       "lines": [
         1,
         0,
@@ -1546,6 +3660,7 @@
     {
       "number": 64,
       "names": [
+        "The River Not Yet Crossed",
         "Not Yet Fording",
         "Before Completion"
       ],
